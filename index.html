@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manos Arequipeñas - Textiles en Alpaca</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-mountain"></i> Manos Arequipeñas
+            </a>
+            <div class="cart-icon" onclick="scrollToContact()">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-badge" id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Artesanía Tradicional en Alpaca</h1>
+            <p>Piezas únicas hechas a mano por Doña Elena desde la hermosa ciudad de Arequipa.</p>
+            <a href="#catalogo" class="btn-primary">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- Catálogo de Productos -->
+    <main class="catalog-container" id="catalogo">
+        <h2 class="section-title">Nuestra Colección</h2>
+        <p class="section-subtitle">Tejidos 100% de fibra de alpaca de alta calidad</p>
+
+        <!-- Grid de Productos -->
+        <div class="product-grid" id="grid-productos">
+            <!-- Carga dinámica vía script.js -->
+        </div>
+    </main>
+
+    <!-- Sección de Contacto & WhatsApp -->
+    <section class="contact-section" id="contacto">
+        <div class="contact-container">
+            <h2 class="section-title">Haz tu Pedido Directo</h2>
+            <p>¿Tienes dudas o deseas realizar un pedido personalizado? Escríbele directamente a Doña Elena por WhatsApp.</p>
+            <a href="#" id="whatsapp-link" target="_blank" class="whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i> Pedir por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Manos Arequipeñas - Taller Artesanal de Doña Elena, Arequipa - Perú.</p>
+    </footer>
+
+    <!-- JavaScript Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
